@@ -1,0 +1,363 @@
+:: StoryTitle
+We need to talk about Mom
+
+
+:: StoryData
+{
+  "ifid": "6E575155-4271-44CB-87B2-3ED34C00A381",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "TitleScreen",
+  "zoom": 1
+}
+
+
+:: Ask Mom if she's okay {"position":"1175,400","size":"100,100"}
+<img src= "images/SadMom.png">
+
+You ask your mom about her day, and she begins discussing the housework in great detail. She mentions how she spent the day feeling really isolated, as if there were no helping hands available. Her words carry a subtle tension, leaving you with a sense of unease as you listen.
+
+[[You talk with Mom until it's time for bed. |Day2]]
+
+
+:: Backstory {"position":"650,400","size":"100,100"}
+<img src= "images/backstory.png">
+
+
+"Mom has ALWAYS been there for me."
+
+[[Next]]
+
+
+:: Continue {"position":"925,400","size":"100,100"}
+
+
+"Sometimes, it's hard to imagine doing anything without her..."
+
+[[Head inside. |Sad Mom]]
+
+
+:: Day 3 {"position":"950,725","size":"100,100"}
+<img src= "images/Day3.png">
+
+
+You're awakened by the familiar sounds of your parents arguing—again, you make your way to the commotion. This time Dad is yelling about the living room sofa. Dad's hurt himself on it before and wants to move it for safety. Mom, with her penchant for perfection, screams back in disagreement.  As you enter the room the redness from Mom's face begins to fade and you can see tears well up in her eyes. You're stuck in the middle, torn between your dad's practicality and your mom's need for things to be just right. What will you do?
+
+[[You agree with Dad. His idea makes sense. |dadSide]]
+
+[[You side with Mom, you can see this really upsets her. |momSide]]
+
+
+:: Day 4a {"position":"625,1000","size":"100,100"}
+<img src= "images/Day4a.png">
+
+Oddly, you slept in this morning; you usually are woken up by the sound of Mom making breakfast. As you make your way to the empty kitchen, your brother's glare follows you, heavy with unspoken resentment.
+
+"When you get between them it just makes things more difficult. Mom hasn't come out of her room since yesterday...and there's nothing to eat."
+
+He scoffs, the weight of his disapproval bearing heavily.
+
+[[You decide to make breakfast for Mom and bring it to her bedroom. |Day4a2]]
+
+
+:: Day2 {"position":"1375,400","size":"100,100"}
+<img src= "images/Day2.png">
+
+After learning about how upset Mom was yesterday, you decide to dedicate the entire day to helping her.
+You even decide to take her out shopping!
+It's a day spent by her side, offering your presence and care. 
+As the day draws to a close, you both retire to bed, grateful for the time you shared.
+
+[[Go to bed]]
+
+
+:: Day4a2 {"position":"625,1150","size":"100,100"}
+<img src= "images/Day2farther.png">
+
+After calling out to your mom, you finally elicit a response, and there's a noticeable change in her tone. Your act of service seems to have appeased her. After breakfast Mom asks if you could spend the whole day with her...
+
+[[You oblige, eager to mend the rift and bring some peace back into your home. |Sleep2a]]
+
+
+:: Day4b {"position":"1050,1050","size":"100,100"}
+<img src= "images/Day4b.png">
+
+Today, you try to console your mom, still shaken from her disagreement with Dad. While you understand Dad's perspective, you can't help but empathize with her feelings. The aftermath of the confrontation casts an unusual ambiance over the next day.
+
+[[Go to bed|Sleep2b]]
+
+
+:: Day5a {"position":"600,1450","size":"100,100"}
+<img src= "images/Day5aDay5b.png">
+
+The next day, morning sunlight streamed through the kitchen window as you joined your family at the breakfast table. Your brother's plate was loaded with a delicious breakfast, but there was nothing for you. It wasn't the first time.
+
+[[Make your own breakfast |Day5b2]]
+
+[[You hold Mom accountable. |dadBacksYouUp]]
+
+
+:: Day5b {"position":"1100,1325","size":"100,100"}
+<img src= "images/Day5aDay5b.png">
+
+After spending time with your mom and attending to her needs yesterday, you still notice a change this next morning. She seems closer to your brother and distances herself from you. To your surprise, she only prepares breakfast for him.
+
+[[In order to avoid conflict, you make your own breakfast |Day5b2]]
+
+[[You approach Mom to discuss her actions. |noBackup]]
+
+
+:: Day5b2 {"position":"1025,1450","size":"100,100"}
+<img src= "images/Day5aDay5b.png">
+
+Day continues. Conflict Free. You do chores. Go to bed early expecting company in the morning.
+
+[[Go to bed|Sleep3b]]
+
+
+:: Final {"position":"1025,2650","size":"100,100"}
+End of your journey through this chapter, but remember that understanding is the first step towards healing.
+
+For further support on Narcissistic abuse:
+https://narcissistabusesupport.com/
+
+The End of this game, the Beginning of healing.
+
+
+:: Go to bed {"position":"1225,575","size":"100,100"}
+<img src= "images/Day2closer.png">
+
+"I feel so lucky that I can have days like this with Mom. It's just... I wish she didn't always feel so overwhelmed."
+
+[[Sleep until morning...|Day 3]]
+
+
+:: Next {"position":"800,400","size":"100,100"}
+<img src= "images/next.png">
+
+"It's like she's this constant presence in my life." 
+"She's never missed a single recital, and she took me and my brother on these crazy trips to places I never thought I'd see."
+"She's got this knack for making everything seem special."
+
+[[Continue]]
+
+
+:: Sad Mom {"position":"1050,400","size":"100,100"}
+<img src= "images/continue.png">
+
+You return home after a fun day of shopping with your best friend. Excitedly, you share your adventure with your mom. But something in her expression suggests that something's amiss, leaving you with a sense of unease.
+
+[[Ask Mom if she's okay]]
+
+
+:: Sleep {"position":"675,875","size":"100,100"}
+<img src= "images/night-scenes.png">
+
+You wake up in the middle of the night to your Mom's loud weeping through the wall. You feel awful for taking your Dad's side.
+
+[[Wake up to yet another day |Day 4a]]
+
+
+:: Sleep2a {"position":"625,1275","size":"100,100"}
+<img src="images/night-scenes.png">
+
+Under the soft glow of the night, you reflect on your interactions with your mother. Something feels amiss, a pattern you can't quite place but is becoming increasingly clear. Her needs, her reactions, the emotional toll it takes on the family—it's all starting to connect. With a heavy heart and a mind full of questions, you drift into sleep, hoping tomorrow will bring some clarity.
+
+[[Wake up next day |Day5a]]
+
+
+:: Sleep2b {"position":"1075,1200","size":"100,100"}
+<img src="images/night-scenes.png">
+
+As the night envelops the room, memories of the day's events float through your mind. There's an unspoken tension in the house, a cloud of unease that lingers. You ponder over your mom's reactions and the emotional weight she seems to carry. It feels as though she requires constant validation, her happiness intricately linked to others' actions. As you drift into sleep, you wonder if there's more to her behavior than meets the eye.
+
+[[Wake up to the next day |Day5b]]
+
+
+:: Sleep3a {"position":"600,1750","size":"100,100"}
+<img src="images/night-scenes.png">
+
+Beneath the quiet night, you ponder the day's events. There's a growing sense of an underlying pattern, elusive yet persistent. Each interaction adds another layer to a puzzle you're trying to decode. Feeling both unsettled and intrigued, you drift into sleep.
+
+[[Sleep till morning|day6Terrible]]
+
+
+:: Sleep3b {"position":"1025,1725","size":"100,100"}
+<img src="images/night-scenes.png">
+
+As the night blankets the house in silence, your mind races. Recent events replay in your mind, making you question the family dynamics and your role within it. You've always tried to bridge the gap, to maintain peace. But at what cost to your own feelings? The weight of the unspoken emotions pulls you into a restless slumber.
+
+[[Sleep until morning|day6Mild]]
+
+
+:: Sleep4a {"position":"775,2175","size":"100,100"}
+<img src="images/night-scenes.png">
+
+Lying in bed, the echoes of the evening's confrontation still fresh, you grapple with the stark revelation. The pattern of your mother's behavior, which once seemed just quirks or mood swings, takes on a deeper, troubling significance. The fragments of interactions, the highs and lows, begin to form a clearer picture. It's painful to admit, yet a small voice within nudges you towards understanding.
+
+[[Proceed to next day|cycleBreak]]
+
+
+:: Sleep4b {"position":"1050,2175","size":"100,100"}
+<img src="images/night-scenes.png">
+
+Under the moonlit sky, a sense of unease settles in. The patterns, the behaviors, and the emotional outbursts—all point towards a deeper issue. The more you reflect, the more you recognize the dynamics of your family revolving around appeasing one person's emotions. But understanding this dynamic and breaking free from it are two different challenges. With a sigh, you hope for a day when the family can communicate without fear.
+
+[[Sleep till morning. |cycleCont.]]
+
+
+:: TitleScreen {"position":"500,400","size":"100,100"}
+
+<img src= "images/Day2Big.png">
+
+WE NEED TO TALK ABOUT <strong>MOM<strong/>
+
+
+[[Play Game |Backstory]]
+
+
+:: cycleBreak {"position":"1000,2375","size":"100,100"}
+<img src="images/day7Terrible.png">
+
+You wake up with a cell in hand and have 3 options:
+
+[[Go shopping with your friend. |Sad Mom]]
+
+[[Comfort Mom. |Ask Mom if she's okay]]
+
+[[Open up about Mom to Friend|Final]]
+
+
+:: cycleCont. {"position":"1275,2325","size":"100,100"}
+<img src="images/mainChar.png">
+
+You wake up with a cell in hand and have 2 options:
+
+[[Go shopping with your friend. |Sad Mom]]
+
+[[Comfort Mom. |Ask Mom if she's okay]]
+
+
+:: dadBacksYouUp {"position":"600,1625","size":"100,100"}
+<img src= "images/dadBacksYouUp.png">
+
+With a sense of determination, you decided to confront her about it. "Mom," you begin, your voice steady, "why didn't you make breakfast for me?"
+
+She looked up, her expression a mix of surprise and feigned innocence. "Oh, I must have forgotten," she replied, a subtle defensive tone in her voice.
+
+Your brother shifted uncomfortably in his chair, sensing the tension. This time, you were determined not to let it slide. The breakfast table became a battleground of unspoken words as you pressed for an explanation, determined to address the recurring pattern that left you feeling neglected.
+
+As the confrontation escalated, Dad couldn't ignore the injustice you were facing. He joined the commotion, backing your stance, and the room filled with a heavy exchange of accusations.
+
+The discussion spiraled into endless, circular arguments, with each side fiercely defending their perspective. The weight of unresolved issues hung heavily in the air, casting a shadow over what should have been a peaceful morning.
+
+
+[[The day is lost to conflict... you go to bed. |Sleep3a]]
+
+
+:: dadSide {"position":"725,750","size":"100,100"}
+<img src= "images/dadSide.png">
+
+Mom, visibly outraged begins to storm off to her room when you notice the sound of  jingling car keys as she locks the door behind her. She's effectively confiscated your plans of going out tonight. 
+
+[[Mom revoked your car privileges. You spend the night at home and go to bed. |Sleep]]
+
+
+:: day6.2 {"position":"1050,2025","size":"100,100"}
+<img src= "images/day6Terribleday6Mild1.png">
+
+Despite the awkward atmosphere, the evening comes to an end. Guests depart with polite goodbyes, perhaps sensing that family matters are best left undiscussed. Your family works together to clean up, with everyone treading lightly to avoid any further conflict. Mom, however, continues her passive-aggressive behavior, emphasizing how much she does and how little she feels appreciated. It's another evening of suppressed feelings, with the family's harmony hanging by a thread.
+
+[[Go to Bed|Sleep4b]]
+
+
+:: day6Mild {"position":"950,1875","size":"100,100"}
+<img src= "images/day6Terribleday6Mild.png">
+
+Dinner starts in high spirits. The guests, a friendly couple, engage in light conversation. However, as the meal progresses, it becomes evident that Mom is looking for opportunities to play the victim. A subtle comment about how hard she worked on the dinner, a slight emphasis on her sacrifices for the family, and the occasional jab at others for not understanding her feelings. Her tone, though soft, has an underlying need for validation.
+
+You notice the guests picking up on the tension, offering words of consolation or diverting the topic. But despite their efforts, the atmosphere grows heavy with suppressed emotions and unspoken words.
+
+[[Stay silent. |day6.2]]
+
+
+:: day6Terrible {"position":"625,1900","size":"100,100"}
+<img src= "images/day6Terribleday6Mild.png">
+
+Dinner starts with subtle tension, but Mom's unresolved feelings quickly surface, leading to sharp remarks. The guests, a couple, try to navigate the awkwardness but are taken aback when Mom's frustrations boil over.
+
+[[Confront Mom at the Table |day6Terrible2]]
+
+[[Stay silent. |day6.2]]
+
+
+:: day6Terrible2 {"position":"675,2050","size":"100,100"}
+<img src= "images/day6Terribleday6Mild1.png">
+
+Mom erupts. You and your father choose to confront Mom. As the atmosphere deteriorates, the guests hastily depart. Exhausted by the emotional toll, the family disperses for the night.
+
+[[Go to bed|Sleep4a]]
+
+
+:: momSide {"position":"1225,725","size":"100,100"}
+<img src= "images/momSide.png">
+
+
+Dad gets frustrated and drives off. He doesn't come back for the entire day. You end up spending time with Mom making her feel better.
+
+[[It's getting late, so you go to bed. |sleep]]
+
+
+:: noBackup {"position":"1175,1600","size":"100,100"}
+<img src="images/noBackup.png">
+
+You're on your own, your father does not back you up due to your taking your mother's side. You decide to put it all behind you and continue with your day. The night approaches and you go to bed early. The next day you have guests.
+
+[[ Got to bed  |Sleep3b]]
+
+
+:: sleep {"position":"1050,900","size":"100,100"}
+<img src= "images/night-scenes.png">
+
+While you're still asleep, you faintly hear your dad's car pulling in. He has returned home.
+
+[[Wake up the next day |Day4b]]
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #000000;
+ 
+}
+tw-story {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #000000;
+  font-size: 1.3rem;
+}
+tw-link {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #F09286;
+    border: 5px solid #32251B;
+    color: #673F25;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+tw-link:hover {
+background-color: #d57f7a;
+ color: #403227;
+}
+
+tw-link, body {
+    image-rendering: pixelated;
+}
+
+.visited { 
+color: #403227;
+}
+.visited:hover { 
+color: #673F25;
+}
